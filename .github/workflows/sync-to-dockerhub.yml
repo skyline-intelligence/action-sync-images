@@ -21,5 +21,5 @@ jobs:
       - name: Sync Image via Skopeo
         run: |
           skopeo copy \
-            docker://registry.cn-hangzhou.aliyuncs.com/your-namespace/image:tag \
-            docker://docker.io/your-dockerhub-username/image:tag
+            docker://crpi-uxhqadilenvgjaqm.cn-hangzhou.personal.cr.aliyuncs.com/skylinecorp/forecasting:latest \
+            docker://docker.io/skylinecorp/forecasting:latest
